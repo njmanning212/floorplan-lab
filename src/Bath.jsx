@@ -2,7 +2,7 @@ const Bath = (props) => {
   return (  
     <div>
       <h2>
-        Bath
+      {props.type} Bath
       </h2>
     </div>
   )

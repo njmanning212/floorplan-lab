@@ -3,14 +3,14 @@ import Bedroom from "./Bedroom"
 import Kitchen from "./Kitchen"
 import LivingRoom from "./LivingRoom"
 
-const FloorPlan = (props) => {
+const FloorPlan = () => {
   return ( 
     <div>
       < Bedroom bedNum={1} />
-      < Bath />
+      < Bath type='Half'/>
       < Bedroom bedNum={2} />
       < Kitchen />
-      < Bath />
+      < Bath type='Full'/>
       < LivingRoom />
       < Bedroom bedNum={3} />
     </div>
