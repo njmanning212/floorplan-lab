@@ -1,13 +1,14 @@
 import Sink from "./Sink";
 import Oven from "./oven";
 
-const Kitchen = (props) => {
+const Kitchen = () => {
   return (
     <div>
+      <h2>Kitchen</h2>
       < Sink />
       < Oven />
     </div> 
   )
 }
 
-export default Kitchen;
+export default Kitchen
